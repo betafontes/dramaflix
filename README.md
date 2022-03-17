@@ -7,7 +7,7 @@ com Flexbox e como utilizar plugins JQuery
 
 ### Sobre o Projeto:
 
-🔹Fiz uma versão de Dramaflix, uma interface só de doramas que são basicamente séries asiáticas, com menu em que você pode interagir
+🔹Fiz uma versão de Dramaflix, uma interface só de doramas que são basicamente séries asiáticas, com menu de navegação em que você pode interagir
 
 ### Tecnologias Utilizadas:
 - HTML
