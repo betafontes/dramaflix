@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+:root {
+    --vermelho: #e50914;
+    --preta:#141414;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body {
+    background:#141414;
+    color: white;
+    font-family: 'Arial', Times, serif'
+}
+
+header{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/*logo*/
+
+header .logo {
+    color: var(--vermelho);
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'Source Code, Fira Mono', Times;
+    flex: 1;
+}
+
+/*menu de navegação*/
+
+.container-menu{
+    flex: 2;
+    font-size: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-left: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header nav a:hover {
+    color: #e50914;
+}
+
+/*Filme Principal*/
+
+.filme-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-meteoros.jpg');
+
+    height: 580px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.file-principal .container {
+    width: 70%
+}
+
+.titulo{
+    margin-top: 15px;
+    font-family: 'Merriweather' , sans-serif;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+
+.descricao  {
+    padding-top:  20px;
+    padding-left: 40px;
+
+}
+
+.temporada {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+/*botões*/
+
+.botoes {
+    margin-right: 20px;
+}
+
+
+.botao1{
+    background-color: rgba(79,79,79,.5);
+    border: none;
+   font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+
+    padding: 15px 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao2{
+    background-color: rgba(79,79,79,.5);
+    border:none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+
+    padding: 15px 30px;
+}
+
+.botao1:hover {
+    background-color: black;
+    color: white;
+}
+.botao1:active {
+    background-color:rgba(79,79,79,.5);
+    box-shadow: #666;
+    transform: translateY(4px);
+}
+
+.botao2:hover {
+    background-color:white;
+    color: black;   
+}
+
+.botao2:active {
+    background-color: rgba(79,79,79,.5);
+
+    box-shadow: #666;
+    transform: translateY(4px);
+}
+
+.botoes i {
+    margin-right: 8px;
+}
+
+/**Filmes**/
+
+.categoria {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-chines {
+    height: 100%;
+    display: block;
+}
+
+.box-coreano {
+    height: 100%;
+    display: block;
+}
+
+.box-japones {
+    height: 100%;
+    display: block;
+}
+
+.carrosel-chines {
+    margin-top: 5px;
+}
+
+.carrosel-coreano {
+    margin-top: 5px;
+}
+
+.carrosel-japones {
+    margin-top: 5px;
+}
+
+

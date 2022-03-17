@@ -1,0 +1,22 @@
+@media screen and (max-width:700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    header nav a {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width:1000px) {
+    .descricao{
+        width: 100%;
+    }
+}
