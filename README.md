@@ -1,23 +1,42 @@
-# Dramaflix 🎬
+<h1 align="center">Website Dramaflix 🎬</h1>
 
-## Bootcamp Project Challenge Impulse Full Stack Web Developer by Digital Innovation One
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-🔹In this project I recreated the main interface of Netflix using CSS techniques with containers and variables, such as positioning elements
-with Flexbox and how to use JQuery plugins
+<br>
 
-### About this Project:
+## 🚀 Tecnologias
 
-🔹I made a version of Dramaflix, an interface only for dramas that are basically Asian series, with a navigation menu where you can interact
+Esse repositório contém essas tais tecnologias :
 
-### Technologies Used:
 - HTML
 - CSS
 - JavaScript
 - JQuery
 
-### Project Layout:
-https://betafontes.github.io/dramaflix/
+
+## 💻 Projeto
+
+Neste respositório eu recriei a interface principal do Netflix utilizando técnicas CSS com containers e variáveis, como elementos de posicionamento
+com Flexbox e como usar plugins JQuery
+
+## 🖼️ Layout
 
 ![image](https://user-images.githubusercontent.com/70981960/158903007-5216a7ab-19aa-40c2-a565-2898f6ae9078.png)
 ![image](https://user-images.githubusercontent.com/70981960/158903121-327049b2-86f0-4ea0-8422-fedf138a6cca.png)
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+Feito com ♥ by betafontes :wave: 
 
